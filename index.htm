@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <!--My CSS-->
+    <link rel="stylesheet" href="./CSS/main.css">
+
+    <!--Font Google-->
+    <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat|Open+Sans|Open+Sans+Condensed:300|Oxanium|Raleway|Roboto|Spartan&display=swap" rel="stylesheet"> 
+
+    <!--Icon da barra de titulo-->
+    <link rel="icon" href="./IMG/icon.png">
+
+    <title>SKAIKRU</title>
+</head>
+
+<body>
+
+    <header class="cabecalho">
+        <a href="index.htm"><h1 class="logo">SKAIKRU</h1></a>
+        <button class="btn-menu"><i class="fa fa-bars fa-lg"></i></button>
+        <nav class="menu">
+            <a class="btn-close"><i class="fa fa-times"></i></a>
+            <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">work</a></li>
+                <li><a href="#">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="banner">
+        <div class="title">
+            <h2>Ouse Inovar</h2>
+            <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua.</h3>
+        </div>
+        <div class="buttons">
+            <button class="btn-cadastrar">cadastrar<i class="fa fa-arrow-circle-right"></i></button>
+            <button class="btn-sobre">sobre<i class="fa fa-question-circle"></i></button>
+        </div>
+    </div>
+    <main class="servicos">
+        <article class="servico">
+            <a href="#"><img src="./IMG/criacoes.jpg" alt="Campanhas publicitarias"></a>
+            <div class="inner">
+                <a href="#">Campanhas Publicitarias</a>
+                <h4>impressos, VT's e jingles</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+            </div>
+        </article>
+        <article class="servico">
+            <a href="#"><img src="./IMG/md.jpg" alt="Marketing Digital"></a>
+            <div class="inner">
+                <a href="#">Marketing Digital</a>
+                <h4>Administracao de Redes Sociais</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+            </div>
+        </article>
+        <article class="servico">
+            <a href="#"><img src="./IMG/cs.jpg" alt="Criacao de Sites"></a>
+            <div class="inner">
+                <a href="#">Criação de Sites</a>
+                <h4>Sites Administraveis</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+            </div>
+        </article>
+    </main>
+    <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script>
+        $(".btn-menu").click(function(){
+            $(".menu").show();
+        });
+        $(".btn-close").click(function(){
+            $(".menu").hide();
+        });
+    </script>
+</body>
+
+</html> 
