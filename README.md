@@ -11,7 +11,7 @@ Aula 6 (concluida) </br>
 Aula 7 (concluida) </br>
 Aula 8 (concluida) </br>
 Aula 9 (concluida) </br>
-Aula 10 </br>
+Aula 10 (concluida) </br>
 Aula 11 </br>
 Aula 12 </br>
 Aula 13 </br>
